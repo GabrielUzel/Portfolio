@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #181823;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+.menu h1 a {
+    padding: 15px 30px 15px 30px;
+    display: block;
+}
+
+.menu #itens-menu li a {
+    padding: 28px 30px 28px 30px;
+    display: block;
+}
+
+.menu #itens-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu h1:hover,
+.menu #itens-menu li:hover {
+    background-color: #34344c;
+}
+
+.sessoes section h2 {
+    font-size: 40px;
+    padding-left: 45px;
+}
+
+#sobre-mim {
+    background-color: #537FE7;
+}
+
+
+
+#projetos {
+    background-color: #C0EEF2;
+}
