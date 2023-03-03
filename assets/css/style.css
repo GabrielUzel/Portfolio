@@ -1,18 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu {
     background-color: #181823;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .menu a {
     text-decoration: none;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;;
 }
 
 .menu h1 a {
@@ -35,16 +37,31 @@
     background-color: #34344c;
 }
 
-.sessoes section h2 {
-    font-size: 40px;
-    padding-left: 45px;
-}
-
 #sobre-mim {
     background-color: #537FE7;
+    font-size: 28px;
+    text-align: left;
 }
 
+.sessoes #sobre-mim h2 {
+    font-size: 45px;
+    padding: 15px 0 15px 200px;
+}
 
+#sobre-mim #conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre-mim p {
+    padding: 50px 100px 0 50px;
+}
+
+#sobre-mim img {
+    width: 400px;
+    height: 400px;
+    padding: 0 150px 200px 0;
+}
 
 #projetos {
     background-color: #C0EEF2;
