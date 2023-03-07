@@ -5,11 +5,13 @@
 }
 
 .menu {
-    background-color: #181823;
+    background-color: #221d21;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    box-shadow: 0 0 5px 0 #6e5e6b;
+    z-index: 9900;
 }
 
 .menu a {
@@ -22,47 +24,84 @@
     display: block;
 }
 
-.menu #itens-menu li a {
+.menu .itens-menu li a {
     padding: 28px 30px 28px 30px;
     display: block;
 }
 
-.menu #itens-menu li {
+.menu .itens-menu li {
     list-style-type: none;
     display: inline-block;
 }
 
 .menu h1:hover,
-.menu #itens-menu li:hover {
-    background-color: #34344c;
+.menu .itens-menu li:hover {
+    background-color: #372f35;
 }
 
-#sobre-mim {
-    background-color: #537FE7;
-    font-size: 28px;
+.sobre-mim {
+    background-color: #433d3d;
+    font-size: 20px;
     text-align: left;
 }
 
-.sessoes #sobre-mim h2 {
-    font-size: 45px;
-    padding: 15px 0 15px 200px;
+.sessoes h2 {
+    font-size: 40px;
+    padding: 15px 0px 0px 200px;
+    color: white;
 }
 
-#sobre-mim #conteiner {
+.conteiner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 150px;
 }
 
-#sobre-mim p {
-    padding: 50px 100px 0 50px;
+.sobre-mim p {
+    padding: 0 100px 0 100px;
+    color: white;
 }
 
-#sobre-mim img {
-    width: 400px;
-    height: 400px;
-    padding: 0 150px 200px 0;
+.sobre-mim #sobre-mim-imagem {
+    width: 325px;
+    height: 325px;
+    padding: 0 125px 0 0;
+    animation-name: float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
 }
 
-#projetos {
-    background-color: #C0EEF2;
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.projetos {
+    background-color: #b7aea5;
+    font-size: 20px;
+    text-align: left;
+}
+
+.projetos img {
+    width: 125px;
+    height: 125px;
+}
+
+.projetos #projetos-itens {
+    padding: 0 0 0 30px;
+}
+
+.projetos p {
+    color: white;
 }
