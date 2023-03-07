@@ -39,7 +39,7 @@
     background-color: #372f35;
 }
 
-.sobre-mim {
+#sobre-mim {
     background-color: #433d3d;
     font-size: 20px;
     text-align: left;
@@ -55,15 +55,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 150px;
+    padding-bottom: 130px;
 }
 
-.sobre-mim p {
+#sobre-mim p {
     padding: 0 100px 0 100px;
     color: white;
 }
 
-.sobre-mim #sobre-mim-imagem {
+#sobre-mim #sobre-mim-imagem {
     width: 325px;
     height: 325px;
     padding: 0 125px 0 0;
@@ -87,21 +87,21 @@
     }
 }
 
-.projetos {
+#projetos {
     background-color: #b7aea5;
     font-size: 20px;
     text-align: left;
 }
 
-.projetos img {
+#projetos img {
     width: 125px;
     height: 125px;
 }
 
-.projetos #projetos-itens {
+#projetos #projetos-itens {
     padding: 0 0 0 30px;
 }
 
-.projetos p {
+#projetos p {
     color: white;
 }
