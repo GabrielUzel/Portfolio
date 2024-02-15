@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    font-family: Cambria, Georgia, serif;
+}
+
+#about-me {
+    padding: 6.5rem 3rem;
+    background-color: #282A36;
+    color: #FFFFFF;
+}
+
+#about-me h1 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+#about-me div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem
+}
