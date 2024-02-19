@@ -1,0 +1,21 @@
+#projects {
+    background-color: #F8F8F2;
+}
+
+#projects p {
+
+}
+
+#projects-list {
+    list-style-type: none;
+}
+
+#projects-list img {
+
+}
+
+.projects-list-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem
+}

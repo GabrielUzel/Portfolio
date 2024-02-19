@@ -1,0 +1,23 @@
+#about-me {
+    background-color: #282A36;
+    color: #FFFFFF;
+}
+
+#about-me p {
+    font-size: 1.5rem;
+    padding: 1.5rem 4rem 0 1.5rem;
+    text-align: justify;
+}
+
+#about-me div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem
+}
+
+#about-me #profile-pic {
+    height: 17rem;
+    width: 17rem;
+    padding-left: 1.5rem;
+}
+
