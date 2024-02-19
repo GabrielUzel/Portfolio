@@ -6,7 +6,6 @@
 #about-me p {
     font-size: 1.5rem;
     padding: 1.5rem 4rem 0 1.5rem;
-    text-align: justify;
 }
 
 #about-me div {
@@ -15,7 +14,7 @@
     gap: 1.5rem
 }
 
-#about-me #profile-pic {
+#about-me img {
     height: 17rem;
     width: 17rem;
     padding-left: 1.5rem;

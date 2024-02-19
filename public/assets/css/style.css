@@ -4,10 +4,14 @@
 }
 
 .segmentation {
-    padding: 6.5rem 3rem;
+    padding: 6rem 3rem;
 }
 
 h1 {
     font-size: 3rem;
     padding-bottom: 3rem;
+}
+
+p {
+    text-align: justify;
 }
