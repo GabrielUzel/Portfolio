@@ -1,3 +1,6 @@
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
+
 const imageLinkedin = document.getElementById("linkedin");
 const imageInstagram = document.getElementById("instagram");
 const imageGithub = document.getElementById("github");
