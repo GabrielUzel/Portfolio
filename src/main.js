@@ -4,28 +4,28 @@ const imageGithub = document.getElementById("github");
 
 imageGithub.addEventListener("mouseover", (event) => {
     event.preventDefault();
-    imageHoverIn(imageGithub)
+    imageHoverIn(imageGithub);
 });
 imageLinkedin.addEventListener("mouseover", (event) => {
     event.preventDefault();
-    imageHoverIn(imageLinkedin)
+    imageHoverIn(imageLinkedin);
 });
 imageInstagram.addEventListener("mouseover", (event) => {
     event.preventDefault();
-    imageHoverIn(imageInstagram)
+    imageHoverIn(imageInstagram);
 });
 
 imageGithub.addEventListener("mouseout", (event) => {
     event.preventDefault();
-    imageHoverOut(imageGithub)
+    imageHoverOut(imageGithub);
 });
 imageLinkedin.addEventListener("mouseout", (event) => {
     event.preventDefault();
-    imageHoverOut(imageLinkedin)
+    imageHoverOut(imageLinkedin);
 });
 imageInstagram.addEventListener("mouseout", (event) => {
     event.preventDefault();
-    imageHoverOut(imageInstagram)
+    imageHoverOut(imageInstagram);
 });
 
 function imageHoverIn(img) {
