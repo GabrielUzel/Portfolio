@@ -1,4 +1,4 @@
-function imageOnMouseover(img) {
+function imageOnMouseOver(img) {
     if(img.id === "github") { img.src = "./public/assets/img/github-icon-activated.svg"; }
     else if(img.id === "linkedin") { img.src = "./public/assets/img/linkedin-icon-activated.svg"; }
     else { img.src = "./public/assets/img/instagram-icon-activated.svg"; }
