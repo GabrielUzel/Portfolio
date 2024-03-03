@@ -1,41 +1,50 @@
-const linkedinImage = document.getElementById("linkedin");
-const instagramImage = document.getElementById("instagram");
-const githubImage = document.getElementById("github");
+const jsImage = document.getElementById("js");
+const htmlImage = document.getElementById("html");
+const cssImage = document.getElementById("css");
+const expressImage = document.getElementById("express");
+const mongoImage = document.getElementById("mongo");
 
-linkedinImage.addEventListener("mouseover", (event) => {
+jsImage.addEventListener("mouseover", (event) => {
     event.preventDefault();
-    imageOnMouseOver(linkedinImage);
+    jsImage.src = "./assets/img/jsIcon.png";
 });
-instagramImage.addEventListener("mouseover", (event) => {
+jsImage.addEventListener("mouseout", (event) => {
     event.preventDefault();
-    imageOnMouseOver(instagramImage);
-});
-githubImage.addEventListener("mouseover", (event) => {
-    event.preventDefault();
-    imageOnMouseOver(githubImage);
+    jsImage.src = "./assets/img/jsIcon_noBackground.png";
 });
 
-linkedinImage.addEventListener("mouseout", (event) => {
+htmlImage.addEventListener("mouseover", (event) => {
     event.preventDefault();
-    imageOnMouseOut(linkedinImage);
+    htmlImage.src = "./assets/img/htmlIcon.png";
 });
-instagramImage.addEventListener("mouseout", (event) => {
+htmlImage.addEventListener("mouseout", (event) => {
     event.preventDefault();
-    imageOnMouseOut(instagramImage);
-});
-githubImage.addEventListener("mouseout", (event) => {
-    event.preventDefault();
-    imageOnMouseOut(githubImage);
+    htmlImage.src = "./assets/img/htmlIcon_noBackground.png";
 });
 
-function imageOnMouseOver(img) {
-    if(img.id === "github") { img.src = "./assets/img/github-icon-activated.svg"; }
-    else if(img.id === "linkedin") { img.src = "./assets/img/linkedin-icon-activated.svg"; }
-    else { img.src = "./assets/img/instagram-icon-activated.svg"; }
-}
+cssImage.addEventListener("mouseover", (event) => {
+    event.preventDefault();
+    cssImage.src = "./assets/img/cssIcon.png";
+});
+cssImage.addEventListener("mouseout", (event) => {
+    event.preventDefault();
+    cssImage.src = "./assets/img/cssIcon_noBackground.png";
+});
 
-function imageOnMouseOut(img) {
-    if(img.id === "github") { img.src = "./assets/img/github-icon-deactivated.svg"; }
-    else if(img.id === "linkedin") { img.src = "./assets/img/linkedin-icon-deactivated.svg"; }
-    else { img.src = "./assets/img/instagram-icon-deactivated.svg"; }
-}
+expressImage.addEventListener("mouseover", (event) => {
+    event.preventDefault();
+    expressImage.src = "./assets/img/expressIcon.png";
+});
+expressImage.addEventListener("mouseout", (event) => {
+    event.preventDefault();
+    expressImage.src = "./assets/img/expressIcon_noBackground.png";
+});
+
+mongoImage.addEventListener("mouseover", (event) => {
+    event.preventDefault();
+    mongoImage.src = "./assets/img/mongoIcon.png";
+});
+mongoImage.addEventListener("mouseout", (event) => {
+    event.preventDefault();
+    mongoImage.src = "./assets/img/mongoIcon_noBackground.png";
+});

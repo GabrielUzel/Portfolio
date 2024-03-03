@@ -1,13 +1,104 @@
 * {
     margin: 0;
-    font-family: Cambria, Georgia, serif;
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
 }
 
 p {
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 22rem
+}
+
+/* **************************************************************************** */
+
+#menu {
+    background-color: rgb(32, 33, 40, .8);
+    position: fixed;
+    z-index: 9000;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(0.625rem);
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 1.5rem;
+}
+
+#menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: .3rem;
+    border-radius: .1rem;
+    font-size: 1.2rem;
+}
+
+#menu a:after {
+    display: block;
+    content: '';
+    border-bottom: .2rem solid #FFFFFF;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+#menu a:hover:after {
+    transform: scaleX(1);
+}
+
+/* **************************************************************************** */
+
+#about-me {
+    background-color: #282A36;
+    color: #FFFFFF;
+    padding: 8rem 0 3rem 0;
+}
+
+#about-me img {
+    height: 17rem;
+    width: 17rem;
+}
+
+/* **************************************************************************** */
+
+#skills {
+    background-color: #F8F8F2;
+    padding: 4rem 0 3rem 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#skills img {
+    height: 3.5rem;
+    width: 3.5rem;
+    
+}
+
+#skills figcaption {
+    text-align: center;
+    font-size: .8rem;
+    padding-top: .4rem;
+}
+
+/* **************************************************************************** */
+
