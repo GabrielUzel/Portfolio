@@ -84,22 +84,34 @@ p {
 }
 
 #skills ul {
+    background-color: #282A36;
+    border-radius: 10px;
+    padding: 1.5rem;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 1rem;
+    align-content: center;
+}
+
+#skills li {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .4rem;
+    border-radius: 10px;
 }
 
 #skills img {
-    height: 3.5rem;
-    width: 3.5rem;
-    
+    height: 2.75rem;
+    width: 2.75rem;
 }
 
 #skills label {
     display: block;
     text-align: center;
-    font-size: .8rem;
+    font-size: 1rem;
     padding-top: .4rem;
 }
 
