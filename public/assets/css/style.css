@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
 }
 
-h1 {
+h2 {
     font-size: 2.5rem;
 }
 
@@ -66,7 +66,8 @@ p {
 #about-me {
     background-color: #282A36;
     color: #FFFFFF;
-    padding: 8rem 0 3rem 0;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
 }
 
 #about-me img {
@@ -78,7 +79,8 @@ p {
 
 #skills {
     background-color: #F8F8F2;
-    padding: 5rem 0 9rem 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #skills ul {
@@ -94,7 +96,8 @@ p {
     
 }
 
-#skills figcaption {
+#skills label {
+    display: block;
     text-align: center;
     font-size: .8rem;
     padding-top: .4rem;
@@ -102,8 +105,8 @@ p {
 
 /* **************************************************************************** */
 
-#container_projects {
-    padding: 0 15rem
+#projects {
+    padding: 0 15rem;
 }
 
 #projects-list {
@@ -145,7 +148,7 @@ p {
     height: 100%;
 }
 
-#project_tools {
+.project_tools {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,13 +166,15 @@ p {
     border-radius: 5px;
 }
 
-#overlay_buttons {
+.overlay_links {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-#overlay_buttons button {
+.overlay_links a {
+    color: #505561;
+    text-decoration: none;
     background-color: transparent;
     border: solid #23252e 2px;
     border-radius: 5px;
@@ -177,16 +182,7 @@ p {
     transition: 0.4s linear;
 }
 
-#overlay_buttons button:hover {
+.overlay_links a:hover {
     background-color: #23252e;
-}
-
-#overlay_buttons a {
-    color: #505561;
-    text-decoration: none;
-    transition: 0.4s linear;
-}
-
-#overlay_buttons button:hover a {
     color: #FFFFFF;
 }
