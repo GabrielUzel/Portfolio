@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Gabriel Uzel</title>
+    <title>Portfólio do Gabriel</title>
 </head>
 <body>
-    <nav id="menu">
+    <section id="menu">
         <ul>
             <li>
                 <a href="#about-me"> About me </a>
@@ -23,51 +23,59 @@
                 <a href="#"> Contacts </a>
             </li>
         </ul>
-    </nav>
+    </section>
     <section id="about-me" class="container">
-            <h2> Olá mundo, meu nome é Gabriel! </h2>
-
+        <div class="container">
+            <h1>
+                    Olá mundo, meu nome é Gabriel!
+            </h1>
             <img src="./assets/img/imagem_teste.jpg" alt="Minha foto">
             <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam autem 
                     laudantium quaerat consequuntur placeat unde, impedit assumenda at asperiores repudiandae 
                     officiis ratione nostrum commodi accusantium maiores nisi amet voluptatum.
             </p>
+        </div>
     </section>
-    <section id="skills" class="container">
-            <h2> Skills </h2>
+    <section id="skills">
+        <div class="container">
+            <h1>
+                Skills
+            </h1>
 
             <ul id="tools">
                 <li>
                     <img id="js" src="./assets/img/jsIcon_noBackground.png" alt="JS">
-                    <label>Javascript</label>
+                    <figcaption>Javascript</figcaption>
                 </li>
                 <li>
                     <img id="html" src="./assets/img/htmlIcon_noBackground.png" alt="HTML">
-                    <label>HTML</label>
+                    <figcaption>HTML</figcaption>
                 </li>
                 <li>
                     <img id="css" src="./assets/img/cssIcon_noBackground.png" alt="CSS">
-                    <label>CSS</label>
+                    <figcaption>CSS</figcaption>
                 </li>
                 <li>
                     <img id="express" src="./assets/img/expressIcon_noBackground.png" alt="Express">
-                    <label>Express</label>
+                    <figcaption>Express</figcaption>
                 </li>
                 <li>
                     <img id="mongo" src="./assets/img/mongoIcon_noBackground.png" alt="MongoDB">
-                    <label>MongoDB</label>
+                    <figcaption>MongoDB</figcaption>
                 </li>
             </ul>
+        </div>
     </section>
-    <section id="projects" class="container">
-            <h2> Projects </h2>
+    <section id="projects">
+        <div id="container_projects" class="container">
+            <h1>Projects</h1>
 
             <div id="projects-list">
                 <div class="projects-images">
                     <img src="./assets/img/project1-img.png" alt="Imagem do projeto 1">
                     <div class="overlay">
-                        <div class="project_tools">
+                        <div id="project_tools">
                             <div class="project_tools_item">
                                 Javascript
                             </div>
@@ -82,20 +90,20 @@
                             </div>
 
                         </div>
-                        <div class="overlay_links">
-                            <a href="https://github.com/GabrielUzel/Tic-Tac-Toe" target="_blank">
-                                    Github
-                            </a>
-                            <a href="https://tictactoe-gabriel.netlify.app/" target="_blank">
-                                Em produção
-                            </a>
+                        <div id="overlay_buttons">
+                            <button>
+                                <a href="https://github.com/GabrielUzel/Tic-Tac-Toe" target="_blank">Github</a>
+                            </button>
+                            <button>
+                                <a href="https://tictactoe-gabriel.netlify.app/" target="_blank">Em produção</a>
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="projects-images">
                     <img src="./assets/img/imagem_teste.jpg" alt="Imagem do projeto 2">
                     <div class="overlay">
-                        <div class="project_tools">
+                        <div id="project_tools">
                             <div class="project_tools_item">
                                 Javascript
                             </div>
@@ -116,13 +124,13 @@
                             </div>
 
                         </div>
-                        <div class="overlay_links">
-                            <a href="https://github.com/GabrielUzel/Noteblocs" target="_blank">
-                                Github
-                            </a>
-                            <a href="" target="_blank">
-                                Em produção
-                            </a>
+                        <div id="overlay_buttons">
+                            <button>
+                                <a href="https://github.com/GabrielUzel/Noteblocs" target="_blank">Github</a>
+                            </button>
+                            <button>
+                                <a href="" target="_blank">Em produção</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -139,10 +147,8 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
-    <footer id="contacts">
-
-    </footer>
-    <script src="./assets/js/bundle.js"></script>
 </body>
+    <script src="./assets/js/bundle.js"></script>
 </html>

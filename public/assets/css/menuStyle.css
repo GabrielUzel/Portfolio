@@ -1,0 +1,36 @@
+#menu {
+    background-color: rgb(32, 33, 40, .8);
+    position: fixed;
+    z-index: 9000;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(0.625rem);
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 1.5rem;
+}
+
+#menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: .3rem;
+    border-radius: .1rem;
+    font-size: 1.2rem;
+}
+
+#menu a:after {
+    display: block;
+    content: '';
+    border-bottom: .2rem solid #FFFFFF;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+#menu a:hover:after {
+    transform: scaleX(1);
+}
