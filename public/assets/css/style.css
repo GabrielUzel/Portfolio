@@ -102,3 +102,91 @@ p {
 
 /* **************************************************************************** */
 
+#container_projects {
+    padding: 0 15rem
+}
+
+#projects-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+#projects-list img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.projects-images {
+    position: relative;
+    height: 18rem;
+    width: 22rem;
+}
+
+.overlay {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(32, 33, 40, .8);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    backdrop-filter: blur(.18rem);
+}
+
+.projects-images:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+#project_tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 80%;
+    cursor: default;
+}
+
+.project_tools_item {
+    padding: .3rem;
+    background-color: #2a2c36;
+    border: solid #23252e 2px;
+    border-radius: 5px;
+}
+
+#overlay_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#overlay_buttons button {
+    background-color: transparent;
+    border: solid #23252e 2px;
+    border-radius: 5px;
+    padding: .3rem;
+    transition: 0.4s linear;
+}
+
+#overlay_buttons button:hover {
+    background-color: #23252e;
+}
+
+#overlay_buttons a {
+    color: #505561;
+    text-decoration: none;
+    transition: 0.4s linear;
+}
+
+#overlay_buttons button:hover a {
+    color: #FFFFFF;
+}

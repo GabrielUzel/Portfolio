@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/menuStyle.css">
-    <link rel="stylesheet" href="./assets/css/aboutmeStyle.css">
-    <link rel="stylesheet" href="./assets/css/projectsStyle.css">
-    <link rel="stylesheet" href="./assets/css/footerStyle.css">
     <title>Portfólio do Gabriel</title>
 </head>
 <body>
@@ -21,7 +17,7 @@
                 <a href="#skills"> Skills </a>
             </li>
             <li>
-                <a href="#"> Projects </a>
+                <a href="#projects"> Projects </a>
             </li>
             <li>
                 <a href="#"> Contacts </a>
@@ -72,77 +68,87 @@
         </div>
     </section>
     <section id="projects">
-        <div class="container">
+        <div id="container_projects" class="container">
             <h1>Projects</h1>
+
+            <div id="projects-list">
+                <div class="projects-images">
+                    <img src="./assets/img/project1-img.png" alt="Imagem do projeto 1">
+                    <div class="overlay">
+                        <div id="project_tools">
+                            <div class="project_tools_item">
+                                Javascript
+                            </div>
+                            <div class="project_tools_item">
+                                HTML
+                            </div>
+                            <div class="project_tools_item">
+                                CSS
+                            </div>
+                            <div class="project_tools_item">
+                                Webpack
+                            </div>
+
+                        </div>
+                        <div id="overlay_buttons">
+                            <button>
+                                <a href="https://github.com/GabrielUzel/Tic-Tac-Toe" target="_blank">Github</a>
+                            </button>
+                            <button>
+                                <a href="https://tictactoe-gabriel.netlify.app/" target="_blank">Em produção</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-images">
+                    <img src="./assets/img/imagem_teste.jpg" alt="Imagem do projeto 2">
+                    <div class="overlay">
+                        <div id="project_tools">
+                            <div class="project_tools_item">
+                                Javascript
+                            </div>
+                            <div class="project_tools_item">
+                                HTML
+                            </div>
+                            <div class="project_tools_item">
+                                CSS
+                            </div>
+                            <div class="project_tools_item">
+                                Webpack
+                            </div>
+                            <div class="project_tools_item">
+                                Express
+                            </div>
+                            <div class="project_tools_item">
+                                MongoDB
+                            </div>
+
+                        </div>
+                        <div id="overlay_buttons">
+                            <button>
+                                <a href="https://github.com/GabrielUzel/Noteblocs" target="_blank">Github</a>
+                            </button>
+                            <button>
+                                <a href="" target="_blank">Em produção</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-images">
+                    <img src="./assets/img/imagem_teste.jpg" alt="">
+                    <div class="overlay">
+                        Hello world
+                    </div>
+                </div>
+                <div class="projects-images">
+                    <img src="./assets/img/imagem_teste.jpg" alt="">
+                    <div class="overlay">
+                        Hello world
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
-
-
-
-
-
-    <!-- <section id="about-me" class="segmentation">
-        <h1>
-            Olá mundo, meu nome é Gabriel!
-        </h1>
-        <div>
-            <img src="./assets/img/jsIcon_noBackground.png" alt="Minha foto">
-            <p>
-                Mineiro e estudante de Ciência da Computação na Universidade Estadual do Sudoeste da Bahia,
-                em Vitória da conquista. Atualmente estudando javascript com Express e MongoDB com o intuito
-                de me tornar dev Fullstack. Sonho também em me tornar game dev futuramente. Tenho experiência
-                básica com Java e C++.
-            </p>
-        </div>
-    </section>
-    <section id="projects" class="segmentation">
-        <h1>Projetos</h1>
-        <ul id="projects-list">
-            <li class="projects-list-item">
-                <a href="https://tictactoe-gabriel.netlify.app/" target="_blank"><img src="./assets/img/project1-img.png" alt="Imagem projeto 1"></a>
-                <p>Um jogo da velha simples para 2 jogadores, utilizando Javascript, HTML e CSS. Aqui foi utilizado
-                    também o Webpack juntamente com o Babel. Segue o <a href="https://github.com/GabrielUzel/Tic-Tac-Toe" 
-                    target="_blank">repositório</a> do projeto.
-                </p>
-            </li>
-            <li class="projects-list-item">
-                <a href="" target="_blank"><img src="./assets/img/jsIcon_noBackground.png" alt="Imagem projeto 2"></a>
-                <p>Descrição do projeto 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem enim 
-                    quisquam hic molestiae dolore impedit dolorem, unde et architecto fugit! Nulla suscipit illum 
-                    totam et in culpa nam praesentium harum.</p>
-            </li>
-            <li class="projects-list-item">
-                <a href="" target="_blank"><img src="./assets/img/jsIcon_noBackground.png" alt="Imagem projeto 3"></a>
-                <p>Descrição do projeto 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem enim 
-                    quisquam hic molestiae dolore impedit dolorem, unde et architecto fugit! Nulla suscipit illum 
-                    totam et in culpa nam praesentium harum.</p>
-            </li>
-        </ul>
-    </section>
-    <footer>
-        <ul id="social-medias">
-            <li>
-                <a href="https://www.linkedin.com/in/gabriel-uzel/" target="_blank">
-                    <img id="linkedin" src="./assets/img/linkedin-icon-deactivated.svg" alt="Ícone do Linkedin">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/gabriel_uzel/" target="_blank">
-                    <img id="instagram" src="./assets/img/instagram-icon-deactivated.svg" alt="Ícone do Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/GabrielUzel" target="_blank">
-                    <img id="github" src="./assets/img/github-icon-deactivated.svg" alt="Ícone do Github">
-                </a>
-            </li>
-        </ul>
-        <div id="footer-text">
-            <p>
-                Gabriel Uzel Fonseca <br> gabrieluzelwork@gmail.com <br> 2024
-            </p>
-        </div>
-    </footer> -->
     <script src="./assets/js/bundle.js"></script>
 </html>
