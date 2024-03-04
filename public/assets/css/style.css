@@ -106,7 +106,8 @@ p {
 /* **************************************************************************** */
 
 #projects {
-    padding: 0 15rem;
+    background-color: #F8F8F2;
+    padding: 0 15rem 5rem 15rem;
 }
 
 #projects-list {
