@@ -84,34 +84,35 @@ p {
 }
 
 #skills ul {
-    background-color: #282A36;
     border-radius: 10px;
     padding: 1.5rem;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 2.5rem;
     align-content: center;
 }
 
 #skills li {
-    background-color: #FFFFFF;
+    background-color: #F8F8F2;
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: .5rem;
     padding: .4rem;
     border-radius: 10px;
 }
 
 #skills img {
-    height: 2.75rem;
-    width: 2.75rem;
+    height: 4rem;
+    width: 4rem;
 }
 
 #skills label {
     display: block;
     text-align: center;
-    font-size: 1rem;
+    font-size: .8rem;
     padding-top: .4rem;
 }
 
@@ -119,15 +120,14 @@ p {
 
 #projects {
     background-color: #F8F8F2;
-    padding: 0 15rem 5rem 15rem;
+    padding: 0 10rem 10rem 10rem;
 }
 
 #projects-list {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 #projects-list img {
@@ -138,8 +138,8 @@ p {
 
 .projects-images {
     position: relative;
-    height: 18rem;
-    width: 22rem;
+    height: 13rem;
+    width: 17rem;
 }
 
 .overlay {
@@ -173,6 +173,7 @@ p {
 }
 
 .project_tools_item {
+    font-size: .8rem;
     padding: .3rem;
     background-color: #2a2c36;
     border: solid #23252e 2px;
@@ -233,8 +234,8 @@ p {
 }
 
 #social-medias img {
-    height: 5rem;
-    width: 5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     padding: 1.5rem 0 1.5rem 4rem;
 }
 
